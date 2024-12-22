@@ -19,7 +19,7 @@ const routes = {
   grafana: {
     url: 'https://grafana.github.io/helm-charts',
     replaces: {
-      'github.com': 'hub.fastgit.org',
+      'grafana.github.io/helm-charts': '$host/grafana',
     },
   },
   prometheus: {
