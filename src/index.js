@@ -28,10 +28,10 @@ const routes = {
       'prometheus-community.github.io/helm-charts': '$host/prometheus',
     },
   },
-  'k8s-at-home': {
-    url: 'https://k8s-at-home.com/charts/',
+  'bitnami': {
+    url: 'https://charts.bitnami.com/bitnami',
     replaces: {
-      'github.com': 'hub.fastgit.org',
+      'charts.bitnami.com/bitnami': '$host/bitnami',
     },
   },
   self: {
